@@ -155,7 +155,6 @@ def make_classifier(c_value: float, max_iter: int, random_state: int) -> Pipelin
         C=c_value,
         penalty="l2",
         solver="lbfgs",
-        multi_class="multinomial",
         max_iter=max_iter,
         random_state=random_state,
     )
